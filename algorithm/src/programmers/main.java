@@ -2,9 +2,15 @@ package programmers;
 
 public class main {
 	public static void main(String[] args) {
-		int a[] = {1,2,3,4};
-		int b[] = {-3,-1,0,2};
+		//int a[] = {14, 0, 16, 12, 11, 15};
+		//int b[] = {1, 2, 3, 5, 4, 6};
 		
-		new DotProduct().solution(a,b);
+		String c = "@@@@";
+		
+		
+		String result = new RecommendId().solution(c);
+		
+		//System.out.println(Arrays.toString(result));
+		System.out.println(result);
 	}
 }
