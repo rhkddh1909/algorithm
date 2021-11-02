@@ -11,7 +11,7 @@ public class Hansoo {
 		}
 		for(int i = 1; i<=num; i++) {
 			if(i<100) {
-				count++;
+				count++;  
 			}
 			else if(((i/100)-((i%100)/10)) == (((i%100)/10) -(i%100)%10))
 			{
