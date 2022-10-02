@@ -13,7 +13,7 @@ public class CoderPad77 {
 		System.out.println(new Solution().solution(arr));
 	}
 }
-class Solution{
+class Solution{ 
 	private int min;
 	private int max;
 	private int i;
