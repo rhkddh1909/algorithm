@@ -16,7 +16,6 @@ public class CodePad134 {
 		for(int i =0; i < arr.length; i++) {
 			System.out.println(spArr.get(i));
 		}
-		
 		System.out.println(spArr.getSize());
 		
 	}

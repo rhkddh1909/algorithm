@@ -1,6 +1,6 @@
 package util;
 
-class TreeNode<T> {
+public class TreeNode<T> {
 	private TreeNode parents;
 	private T value;
 	private TreeNode right;
@@ -46,10 +46,12 @@ class TreeNode<T> {
 	
 	public void addRight(TreeNode right) {
 		this.right = right;
+		right.parents = this;
 	}
 	
 	public void addLeft(TreeNode left) {
 		this.left = left;
+		left.parents = this;
 	}
 	
 	public void addParents(TreeNode parents) {
