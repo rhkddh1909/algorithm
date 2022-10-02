@@ -17,7 +17,7 @@ class Solution{
 	private int min;
 	private int max;
 	private int i;
-	private int k;
+	private int k; 
 	
 	public List<ArrayList<Integer>> solution(int[][] arr) {
 		List<Integer> list = new ArrayList<Integer>();
