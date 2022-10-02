@@ -10,7 +10,7 @@ public class CoderPad133 {
 	    bTree.add(22);
 	    bTree.add(35);
 	  
-	    System.out.println(bTree.solution(37));
+	    System.out.println(bTree.solution(22));
 	    
 	}
 	
